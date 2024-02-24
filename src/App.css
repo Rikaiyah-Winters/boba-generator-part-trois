@@ -1,38 +1,121 @@
 .App {
   text-align: center;
+  font-size: 16px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+h1 {
+  font-size: 2.25em;
   color: white;
+  background: #003049;
+  margin: 0;
+  padding: 25px 0;
 }
 
-.App-link {
-  color: #61dafb;
+h2 {
+  font-size: 1.65em;
+  text-align: left;
+  margin: 30px 15px;
+  line-height: 1.30em;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.drink-categories {
+  text-align: center;
+  background: #8ecae6;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  padding: 10px 16px;
+  font-size: 1.5em;
+  margin: 20px 2px;
+  width: 90%;
 }
+
+.topping-button {
+  border: none;
+  border-radius: 10px;
+  color: white;
+  padding: 10px 16px;
+  text-align: center;
+  display: inline-block;
+  font-size: 1.5em;
+  margin: 20px 2px;
+  background: #8ecae6;
+  width: 90%;
+}
+
+h3 {
+  font-size: 2em;
+  line-height: 1em;
+}
+
+footer {
+  font-weight: 100;
+  color: #eae2b7;
+}
+
+footer span {
+  color: #22223b;
+}
+
+@media only screen and (min-width:768px) {
+  h1 {
+    font-size: 4.50em;
+    color: white;
+    background: #003049;
+    margin: 0;
+    padding: 25px 0;
+  }
+
+  h2 {
+    font-size: 2.65em;
+    text-align: left;
+    margin: 30px 15px;
+    line-height: 1.30em;
+  }
+
+  .drink-categories {
+    text-align: center;
+    border: none;
+    color: white;
+    padding: 20px 16px;
+    font-size: 2.5em;
+    margin: 20px 2px;
+    width: 90%;
+  }
+
+  .topping-button {
+    border: none;
+    color: white;
+    padding: 20px 16px;
+    text-align: center;
+    display: inline-block;
+    font-size: 2.5em;
+    margin: 20px 2px;
+    width: 90%;
+  }
+
+  h3 {
+    font-size: 3em;
+    line-height: 1em;
+  }
+
+};
+
+/*@media only screen and (min-width:1200px) {
+  .info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .left,
+  .right {
+    width: 50%;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+
+  .right {
+    padding-top: 75px;
+  }
+};*/
